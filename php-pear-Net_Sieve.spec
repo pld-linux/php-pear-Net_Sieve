@@ -3,7 +3,7 @@
 %define         _subclass       Sieve
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - Handles talking to timsieved
-Summary(pl):	%{_class}_%{_subclass} -
+Summary(pl):	%{_class}_%{_subclass} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	1
@@ -19,6 +19,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Provides an API to talk to the timsieved server that comes with Cyrus
 IMAPd. Can be used to install, remove, mark active etc sieve scripts.
+
+%description -l pl
+Ten modu³ udostêpnia API do komunikacji z serwerem timsieved,
+do³±czonym do Cyrus IMAPd. Mo¿e byæ u¿ywany do instalowania, usuwania,
+zaznaczania aktywno¶ci itp. skryptów sieve.
 
 %prep
 %setup -q -c
