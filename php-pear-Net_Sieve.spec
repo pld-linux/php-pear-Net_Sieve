@@ -2,15 +2,16 @@
 %define         _class          Net
 %define         _subclass       Sieve
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - Handles talking to timsieved
 Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
-Version:	0.8.1
-Release:	2
+Version:	0.9.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	bc43d7a9f00ba2e2b2cfbb7c02ce6488
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	f71a15a4cd2cf075b83daa9b8d7e6b74
 URL:		http://pear.php.net/package/Net_Sieve/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
