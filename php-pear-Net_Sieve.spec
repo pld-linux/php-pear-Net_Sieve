@@ -1,9 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Sieve
+%define		_class		Net
+%define		_subclass	Sieve
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Handles talking to timsieved
+Summary:	%{_pearname} - handles talking to timsieved
 Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
