@@ -5,7 +5,7 @@
 Summary:	%{_class}_%{_subclass} - Handles talking to timsieved
 Summary(pl):	%{_class}_%{_subclass} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
-Version:	0.8
+Version:	0.8.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
