@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       Sieve
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Handles talking to timsieved
-Summary(pl):	%{_class}_%{_subclass} - obs³uga komunikacji z timsieved
+Summary:	%{_pearname} - Handles talking to timsieved
+Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	0.8.1
 Release:	1
