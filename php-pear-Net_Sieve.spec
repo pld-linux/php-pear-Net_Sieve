@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides an API to talk to the timsieved server that comes with Cyrus
 IMAPd. Can be used to install, remove, mark active etc sieve scripts.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ten modu³ udostêpnia API do komunikacji z serwerem timsieved,
