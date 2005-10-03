@@ -8,7 +8,7 @@ Summary:	%{_pearname} - handles talking to timsieved
 Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
-Release:	1.1
+Release:	1.2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,6 +16,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Net_Sieve/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-pear-Net_Socket >= 1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
