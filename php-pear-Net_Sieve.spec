@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	2
+Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
