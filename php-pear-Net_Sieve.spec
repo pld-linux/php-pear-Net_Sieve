@@ -3,12 +3,11 @@
 %define		_subclass	Sieve
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - handles talking to timsieved
 Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
-Release:	2
+Release:	3
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
