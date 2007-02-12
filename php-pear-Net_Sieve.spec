@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - handles talking to timsieved
-Summary(pl):	%{_pearname} - obs³uga komunikacji z timsieved
+Summary(pl.UTF-8):   %{_pearname} - obsÅ‚uga komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.1.5
 Release:	1
@@ -29,16 +29,16 @@ IMAPd. Can be used to install, remove, mark active etc sieve scripts.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten modu³ udostêpnia API do komunikacji z serwerem timsieved,
-do³±czonym do Cyrus IMAPd. Mo¿e byæ u¿ywany do instalowania, usuwania,
-zaznaczania aktywno¶ci itp. skryptów sieve.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia API do komunikacji z serwerem timsieved,
+doÅ‚Ä…czonym do Cyrus IMAPd. MoÅ¼e byÄ‡ uÅ¼ywany do instalowania, usuwania,
+zaznaczania aktywnoÅ›ci itp. skryptÃ³w sieve.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -47,7 +47,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
