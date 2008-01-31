@@ -7,7 +7,7 @@ Summary:	%{_pearname} - handles talking to timsieved
 Summary(pl.UTF-8):	%{_pearname} - obsługa komunikacji z timsieved
 Name:		php-pear-%{_pearname}
 Version:	1.1.5
-Release:	2
+Release:	3
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
