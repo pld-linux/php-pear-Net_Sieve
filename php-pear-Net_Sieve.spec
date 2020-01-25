@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Net_Sieve
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - handles talking to timsieved
 Summary(pl.UTF-8):	%{pearname} - obsługa komunikacji z timsieved
 Name:		php-pear-%{pearname}
